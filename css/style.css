@@ -45,6 +45,7 @@ ul
     display: block;
     padding: 0 30px;
     opacity: 1;
+    width: 100%;
 }
 .hidden
 {
@@ -297,7 +298,7 @@ h3.my-profession
 }
 .home-info p
 {
-    margin-bottom: 70px;
+    margin-bottom: 25px;
     font-size: 20px;
     color: var(--text-black-700);
 }
@@ -341,7 +342,7 @@ h3.my-profession
 
 .wrapper{
     display: inline-flex;
-    margin: 36px 0;
+    margin-bottom: 25px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -760,8 +761,8 @@ h3.my-profession
 }
 .portfolio .portfolio-item
 {
-    flex: 0 0 33.33%;
-    /* max-width: 33.33%; */
+    flex: 0 0 50%;
+    max-width: 50%;
     margin-bottom: 75px;
 }
 .portfolio .portfolio-item-inner
@@ -791,7 +792,7 @@ h3.my-profession
 }
 .portfolio-img{
     position: relative;
-    width: 440px;
+    width: 425px;
     height: 275px;
     background: url("../images/projects/visadil.png") no-repeat;
     background-size: cover;
@@ -853,7 +854,7 @@ h3.my-profession
 }
 .portfolio-img-mouali{
     position: relative;
-    width: 439px;
+    width: 425px;
     height: 275px;
     background: url("../images/projects/mouali.png") no-repeat;
     background-size: cover;
@@ -915,7 +916,7 @@ h3.my-profession
 }
 .portfolio-img-Football{
     position: relative;
-    width: 439px;
+    width: 425px;
     height: 275px;
     background: url("../images/projects/Reservation-Terran-Football.png") no-repeat;
     background-size: cover;
@@ -977,7 +978,7 @@ h3.my-profession
 }
 .portfolio-img-Lpage{
     position: relative;
-    width: 440px;
+    width: 425px;
     height: 275px;
     background: url("../images/projects/landing-page.png") no-repeat;
     background-size: cover;
@@ -1024,7 +1025,7 @@ h3.my-profession
 }
 .portfolio-img-hackathon{
     position: relative;
-    width: 439px;
+    width: 425px;
     height: 275px;
     background: url("../images/projects/hack-athon.png") no-repeat;
     background-size: cover;
@@ -1086,7 +1087,7 @@ h3.my-profession
 }
 .portfolio-img-memoryCard{
     position: relative;
-    width: 439px;
+    width: 425px;
     height: 275px;
     background: url("../images/projects/memory-card-game.png") no-repeat;
     background-size: cover;
