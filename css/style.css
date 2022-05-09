@@ -637,7 +637,7 @@ h3.my-profession {
 }
 
 .service .service-item span::before {
-  content: "Soon";
+  content: "Soon...";
   position: absolute;
   width: 150%;
   height: 30px;
